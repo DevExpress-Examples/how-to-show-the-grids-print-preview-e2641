@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="PrintPreviewDialogSilverlight.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dx:DXTabControl Name="tabControl" TabHidden="tabControl_TabHidden">
+            <dx:DXTabItem Header="Grid Control">
+                <StackPanel>
+                    <dxg:GridControl AutoPopulateColumns="True" Name="grid" Height="600">
+                        <dxg:GridControl.View>
+                            <dxg:TableView PrintAutoWidth="True" />
+                        </dxg:GridControl.View>
+                    </dxg:GridControl>
+                    <Button Content="Show print preview" HorizontalAlignment="Center"
+                    Margin="5" Padding="5" Click="Button_Click" />
+                </StackPanel>
+            </dx:DXTabItem>
+        </dx:DXTabControl>
+    </Grid>
+</UserControl>
