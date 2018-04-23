@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "E2641_VB", "E2641_VB\E2641_VB.vbproj", "{EF7642D0-F8F9-42C1-95B5-18653D7E8B10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8975FF1-66FC-438E-9AD8-ABD27636CFDB} = {A8975FF1-66FC-438E-9AD8-ABD27636CFDB}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "E2641_VB.Web", "E2641_VB.Web\E2641_VB.Web.vbproj", "{A8975FF1-66FC-438E-9AD8-ABD27636CFDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7642D0-F8F9-42C1-95B5-18653D7E8B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7642D0-F8F9-42C1-95B5-18653D7E8B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7642D0-F8F9-42C1-95B5-18653D7E8B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7642D0-F8F9-42C1-95B5-18653D7E8B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8975FF1-66FC-438E-9AD8-ABD27636CFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8975FF1-66FC-438E-9AD8-ABD27636CFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8975FF1-66FC-438E-9AD8-ABD27636CFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8975FF1-66FC-438E-9AD8-ABD27636CFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
