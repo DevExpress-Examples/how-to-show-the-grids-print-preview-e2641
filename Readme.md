@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [PrintPreviewDialogSilverlightTestPage.aspx](./CS/PrintPreviewDialogSilverlight.Web/PrintPreviewDialogSilverlightTestPage.aspx)
+* [MainPage.xaml](./CS/PrintPreviewDialogSilverlight/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/PrintPreviewDialogSilverlight/MainPage.xaml.vb))
+* [MainPage.xaml.cs](./CS/PrintPreviewDialogSilverlight/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/PrintPreviewDialogSilverlight/MainPage.xaml.vb))
+<!-- default file list end -->
 # How to Show the Grid's Print Preview
 
 
