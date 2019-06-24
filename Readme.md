@@ -5,6 +5,9 @@
 * [MainPage.xaml.cs](./CS/PrintPreviewDialogSilverlight/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/PrintPreviewDialogSilverlight/MainPage.xaml.vb))
 <!-- default file list end -->
 # How to Show the Grid's Print Preview
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e2641)**
+<!-- run online end -->
 
 
 <p>This example shows how to preview the grid before it is printed.</p>
